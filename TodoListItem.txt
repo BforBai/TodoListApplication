@@ -1,0 +1,5 @@
+Practice Java	Practice Java using IntelliJ.	03/01/2019
+Practice Python	Practice Python using VS Code.	04/30/2019
+Running	Go out and have some exercises	03/01/2019
+Do dishes	Help do dishes	05/02/2019
+Watch Movie	Wathch a movie	05/03/2019
