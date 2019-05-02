@@ -191,14 +191,9 @@ public class Controller {
     @FXML
     public void handleClickListView(){
         TodoItems item = listViewID.getSelectionModel().getSelectedItem();
-//        System.out.println("Item selected: " + item);
         itemDetailTextArea.setText(item.getDetails());
         dueDateLabel.setText(item.getDeadline().toString());
-//        StringBuilder sb = new StringBuilder(item.getDetails());
-//        sb.append("\n\n\n\n");
-//        sb.append("Due Date: ");
-//        sb.append(item.getDeadline().toString());
-//        itemDetailTextArea.setText(sb.toString());
+
     }
 
     @FXML

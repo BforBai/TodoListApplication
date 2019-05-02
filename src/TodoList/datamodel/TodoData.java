@@ -40,10 +40,6 @@ public class TodoData {
         todoItems.remove(item);
     }
 
-//    public void setTodoItems(List<TodoItems> todoItems) {
-//        this.todoItems = todoItems;
-//    }
-
     public void loadTodoItems() throws IOException {
         todoItems = FXCollections.observableArrayList();
         Path path = Paths.get(filename);
